@@ -1,15 +1,18 @@
-#Quick UI generator using Curses#
+# Quick UI generator using Curses
+
 This helps to quickly generate the UI using Python Curses library.
 
-##Install##
+## Install
+
 Run this command:
 ~~~
 python3 setup.py install
 ~~~
 
-##Usage example##
+## Usage example
+
 Here is a simple code utilize this generator:
-~~~
+```python
 from curses import wrapper
 from collections import OrderedDict
 import console_utils as cls
@@ -46,5 +49,5 @@ def main (stdscr):
 if __name__ == '__main__':
 	wrapper (main)
 	exit (0)
-~~~
+```
 
